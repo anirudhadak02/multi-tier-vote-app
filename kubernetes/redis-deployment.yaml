@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: leader
-        image: "docker.io/redis:6.0.5"
+        image: bastion.vuong.com.hpemsp.local:5000/myproject/redis:6.0.5         #docker.io/redis:6.0.5
         resources:
           requests:
             cpu: 100m
