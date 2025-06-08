@@ -16,7 +16,8 @@ spec:
         app: result
     spec:
       containers:
-      - image: dockersamples/examplevotingapp_result:before
+      - image: bastion.vuong.com.hpemsp.local:5000/myproject/dockersamples-examplevotingapp_result:before 
+      #dockersamples/examplevotingapp_result:before
         name: result
         ports:
         - containerPort: 80
