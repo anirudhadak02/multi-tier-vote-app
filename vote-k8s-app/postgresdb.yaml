@@ -16,7 +16,7 @@ spec:
         app: db
     spec:
       containers:
-      - image: postgres:9.4
+      - image: bastion.vuong.com.hpemsp.local:5000/myproject/postgres:9.4  #postgres:9.4
         name: postgres
         env:
         - name: POSTGRES_USER
