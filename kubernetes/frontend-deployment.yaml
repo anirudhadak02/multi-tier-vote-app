@@ -16,7 +16,8 @@ spec:
     spec:
       containers:
       - name: php-redis
-        image: us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v5
+        image: bastion.vuong.com.hpemsp.local:5000/myproject/google-samples-containers-gke-gb-frontend:v5
+        # us-docker.pkg.dev/google-samples/containers/gke/gb-frontend:v5
         env:
         - name: GET_HOSTS_FROM
           value: "dns"
