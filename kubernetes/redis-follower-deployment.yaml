@@ -20,7 +20,8 @@ spec:
     spec:
       containers:
       - name: follower
-        image: us-docker.pkg.dev/google-samples/containers/gke/gb-redis-follower:v2
+        image: bastion.vuong.com.hpemsp.local:5000/myproject/google-samples-containers-gke-gb-redis-follower:v2
+        #us-docker.pkg.dev/google-samples/containers/gke/gb-redis-follower:v2
         resources:
           requests:
             cpu: 100m
