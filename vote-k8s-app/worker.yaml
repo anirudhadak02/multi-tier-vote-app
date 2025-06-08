@@ -16,5 +16,5 @@ spec:
         app: worker
     spec:
       containers:
-      - image: dockersamples/examplevotingapp_worker
+      - image: bastion.vuong.com.hpemsp.local:5000/myproject/dockersamples-examplevotingapp_worker:latest #dockersamples/examplevotingapp_worker
         name: worker
