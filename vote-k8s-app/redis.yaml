@@ -16,7 +16,7 @@ spec:
         app: redis
     spec:
       containers:
-      - image: redis:alpine
+      - image: bastion.vuong.com.hpemsp.local:5000/myproject/redis:alpine  #redis:alpine
         name: redis
         ports:
         - containerPort: 6379
